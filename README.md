@@ -1,6 +1,6 @@
 # Module_14_Challenge : *JavaScript Data Visualization Challenge*
 
-In this repository is a web page demonstrating data visualization in JavaScript via D3. On the web page you can select a subject ID from the dropdown control. The data associated with that subject ID will be reflected in the bar chart, bubble chart, and demographic info. The JavaScript file *app.js* contains the logic for populating the dropdown and displaying the charts for the corresponding subject ID.
+In this repository is a web page demonstrating data visualization in JavaScript via D3 and Plotly. On the web page you can select a subject ID from the dropdown control. The data associated with that subject ID will be reflected in the bar chart, bubble chart, and demographic info. The JavaScript file *app.js* contains the logic for populating the dropdown and displaying the charts for the corresponding subject ID.
 
 ## URL
 The web page can be accessed with this URL:  
