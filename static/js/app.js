@@ -73,7 +73,7 @@ function buildCharts(sample) {
     };
 
     let layout = {
-      title: { text: "<b>Bacteria Cultures Per Sample<br>(Subject #" + sample + ")</b>" },
+      title: { text: "<b>Bacteria Cultures Per Sample<br>Subject #" + sample + "</b>" },
       xaxis: { title: { text: "<b>OTU ID</b>" } },
       yaxis: { title: { text: "<b>Number of Bacteria</b>" } },
       width: 1200,
@@ -84,6 +84,7 @@ function buildCharts(sample) {
     Plotly.newPlot("bubble", [trace], layout);
 
     // For the Bar Chart, map the otu_ids to a list of strings for your yticks
+    // *Handled in the for loop above
 
     // Build a Bar Chart
     // Don't forget to slice and reverse the input data appropriately
@@ -103,7 +104,7 @@ function buildCharts(sample) {
     };
 
     layout = {
-      title: { text: "<b>Top 10 Bacteria Cultures Found<br>(Subject #" +  sample + ")</b>" },
+      title: { text: "<b>Top 10 Bacteria Cultures Found<br>Subject #" +  sample + "</b>" },
       xaxis: { title: { text: "<b>Number of Bacteria</b>" } },
       yaxis: { title: { text: "<b>OTU ID</b>" }, automargin: true },
       width: 800,
